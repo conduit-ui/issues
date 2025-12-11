@@ -1,42 +1,42 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Call to method delete\\(\\) on an unknown class ConduitUI\\\\GithubConnector\\\\GithubConnector\\.$#"
+			message: "#^Call to method delete\\(\\) on an unknown class ConduitUi\\\\GitHubConnector\\\\Connector\\.$#"
 			count: 3
 			path: src/Services/IssuesService.php
 
 		-
-			message: "#^Call to method get\\(\\) on an unknown class ConduitUI\\\\GithubConnector\\\\GithubConnector\\.$#"
+			message: "#^Call to method get\\(\\) on an unknown class ConduitUi\\\\GitHubConnector\\\\Connector\\.$#"
 			count: 2
 			path: src/Services/IssuesService.php
 
 		-
-			message: "#^Call to method patch\\(\\) on an unknown class ConduitUI\\\\GithubConnector\\\\GithubConnector\\.$#"
+			message: "#^Call to method patch\\(\\) on an unknown class ConduitUi\\\\GitHubConnector\\\\Connector\\.$#"
 			count: 1
 			path: src/Services/IssuesService.php
 
 		-
-			message: "#^Call to method post\\(\\) on an unknown class ConduitUI\\\\GithubConnector\\\\GithubConnector\\.$#"
+			message: "#^Call to method post\\(\\) on an unknown class ConduitUi\\\\GitHubConnector\\\\Connector\\.$#"
 			count: 3
 			path: src/Services/IssuesService.php
 
 		-
-			message: "#^Call to method put\\(\\) on an unknown class ConduitUI\\\\GithubConnector\\\\GithubConnector\\.$#"
+			message: "#^Call to method put\\(\\) on an unknown class ConduitUi\\\\GitHubConnector\\\\Connector\\.$#"
 			count: 1
 			path: src/Services/IssuesService.php
 
 		-
-			message: "#^Call to method send\\(\\) on an unknown class ConduitUI\\\\GithubConnector\\\\GithubConnector\\.$#"
+			message: "#^Call to method send\\(\\) on an unknown class ConduitUi\\\\GitHubConnector\\\\Connector\\.$#"
 			count: 10
 			path: src/Services/IssuesService.php
 
 		-
-			message: "#^Parameter \\$connector of method ConduitUI\\\\GithubIssues\\\\Services\\\\IssuesService\\:\\:__construct\\(\\) has invalid type ConduitUI\\\\GithubConnector\\\\GithubConnector\\.$#"
+			message: "#^Parameter \\$connector of method ConduitUI\\\\GithubIssues\\\\Services\\\\IssuesService\\:\\:__construct\\(\\) has invalid type ConduitUi\\\\GitHubConnector\\\\Connector\\.$#"
 			count: 1
 			path: src/Services/IssuesService.php
 
 		-
-			message: "#^Property ConduitUI\\\\GithubIssues\\\\Services\\\\IssuesService\\:\\:\\$connector has unknown class ConduitUI\\\\GithubConnector\\\\GithubConnector as its type\\.$#"
+			message: "#^Property ConduitUI\\\\GithubIssues\\\\Services\\\\IssuesService\\:\\:\\$connector has unknown class ConduitUi\\\\GitHubConnector\\\\Connector as its type\\.$#"
 			count: 1
 			path: src/Services/IssuesService.php
 

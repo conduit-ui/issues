@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Examples;
 
-use ConduitUI\GithubConnector\GithubConnector;
+use ConduitUi\GitHubConnector\Connector;
 use ConduitUI\GithubIssues\Contracts\ManagesIssueAssigneesInterface;
 use ConduitUI\GithubIssues\Contracts\ManagesIssueLabelsInterface;
 use ConduitUI\GithubIssues\Contracts\ManagesIssuesInterface;
@@ -26,7 +26,7 @@ class CompositeGithubService implements ManagesIssueAssigneesInterface, ManagesI
     // use ManagesProjects; // From another package
 
     public function __construct(
-        private readonly GithubConnector $connector
+        private readonly Connector $connector
     ) {}
 
     /**

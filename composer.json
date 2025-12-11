@@ -1,6 +1,6 @@
 {
     "name": "conduit-ui/github-issues",
-    "description": "GitHub issues management package built on github-connector",
+    "description": "GitHub issues management package built on the connector library",
     "keywords": [
         "github",
         "issues",
@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": "^8.2|^8.3|^8.4",
-        "conduit-ui/github-connector": "dev-master",
+        "conduit-ui/connector": "^1.0",
         "illuminate/contracts": "^10.0||^11.0||^12.0",
         "saloonphp/saloon": "^3.10",
         "spatie/laravel-package-tools": "^1.16|^2.0"

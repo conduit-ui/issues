@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace ConduitUI\GithubIssues\Services;
 
-use ConduitUI\GithubConnector\GithubConnector;
+use ConduitUi\GitHubConnector\Connector;
 use ConduitUI\GithubIssues\Contracts\IssuesServiceInterface;
 use ConduitUI\GithubIssues\Traits\ManagesIssueAssignees;
 use ConduitUI\GithubIssues\Traits\ManagesIssueLabels;
@@ -17,6 +17,6 @@ class IssuesService implements IssuesServiceInterface
     use ManagesIssues;
 
     public function __construct(
-        private readonly GithubConnector $connector
+        private readonly Connector $connector
     ) {}
 }
